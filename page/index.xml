@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Imad Harir</title>
+        <link>https://imadharir.github.io/page/</link>
+        <description>Recent content in Pages on Imad Harir</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://imadharir.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Archives</title>
+        <link>https://imadharir.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Resume</title>
+        <link>https://imadharir.github.io/resume/</link>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/resume/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;Imad Harir Resume.pdf&#34; download&gt;&lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;imad-harir&#34;&gt;Imad HARIR
+&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Data Engineer / Data Scientist&lt;/strong&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/%c3%aemad-harir-11b658199&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LinkedIn&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://github.com/imadharir&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;&lt;br&gt;
+📞 +(212) 665 63 38 41
+✉️ &lt;a class=&#34;link&#34; href=&#34;mailto:harir.imad.2001@gmail.com&#34; &gt;harir.imad.2001@gmail.com&lt;/a&gt;&lt;br&gt;
+📍 Casablanca, Morocco
+23 years old
+Driving License B&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary
+&lt;/h2&gt;&lt;p&gt;A recent graduate in computer engineering, passionate about Data Engineering, Data Science, Big Data, and Artificial Intelligence. With a strong academic background, relevant projects, and a Google Professional Data Engineer certification, I have developed deep skills in data analysis, predictive modeling, and creating innovative solutions. Looking for opportunities to apply my skills and contribute to cutting-edge projects.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;State Engineer in Computer Sciences&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;The National School of Applied Sciences Berrechid (ENSA)&lt;/em&gt; | 2021 - 2024&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;University Diploma in Technology (DUT)&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Higher School of Technology, Agadir&lt;/em&gt;&lt;br&gt;
+Major: Computer Engineering | 2019 - 2021&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;High School Diploma in Mathematical Sciences&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Al Khawarizmy Technical High School&lt;/em&gt; | 2019&lt;br&gt;
+Honors: With Distinction&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;experiences&#34;&gt;Experiences
+&lt;/h2&gt;&lt;h3 id=&#34;final-year-project&#34;&gt;Final-Year Project
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;National Office of Electricity, Casablanca&lt;/strong&gt; | Feb - Jun 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Analyzed electricity consumption using advanced time series methods such as STL decomposition and Dickey-Fuller stationarity test.&lt;/li&gt;
+&lt;li&gt;Developed forecasting models using deep neural networks (LSTM, GRU) to improve prediction accuracy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;application-internship&#34;&gt;Application Internship
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;CBI, Casablanca&lt;/strong&gt; | Jul - Aug 2023&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and developed an integrated project management solution using Power Platform.&lt;/li&gt;
+&lt;li&gt;Added features like an interactive Gantt chart, custom Power Apps components, and Power Automate automation to enhance operational efficiency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;initiation-internship&#34;&gt;Initiation Internship
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Schneider Electric, Casablanca&lt;/strong&gt; | Jul 2022&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deployed AudioCodes desktop phones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;final-year-internship&#34;&gt;Final-Year Internship
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Kadir Distribution, Casablanca&lt;/strong&gt; | Aug - Sep 2021&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed an interface for managing different levels of studies in a school.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;projects&#34;&gt;Projects
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Amazon Book Scraper and Data Storage&lt;/strong&gt;&lt;br&gt;
+Developed an automated scraping pipeline to extract book information from Amazon, stored in a PostgreSQL database. The project used Google Cloud Composer (Apache Airflow) for data orchestration and daily ingestion.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Google Cloud Pub/Sub Infrastructure with Terraform&lt;/strong&gt;&lt;br&gt;
+Created real-time stock market data processing infrastructure on Google Cloud using Terraform for deployment. Managed Pub/Sub topics, Cloud Functions, storage buckets, and BigQuery for analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Handwritten Digits Detection and Facial Mask Detection&lt;/strong&gt;&lt;br&gt;
+Trained models to detect individuals with or without masks using a large dataset, achieving accurate results.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Prediction of Used Car Prices with Gradient Boosting&lt;/strong&gt;&lt;br&gt;
+Developed a machine learning model using Gradient Boosting to predict used car prices. Encoded categorical variables and created new features, resulting in robust performance on both training and test sets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming Languages:&lt;/strong&gt; Python, Java, JavaScript, R&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Libraries:&lt;/strong&gt; Keras, TensorFlow, scikit-learn&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud:&lt;/strong&gt; Google Cloud Platform (GCP)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database Systems:&lt;/strong&gt; MySQL, Oracle, IBM Db2, PostgreSQL, SQL Server, MongoDB, Cassandra&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Query Languages:&lt;/strong&gt; SQL, CQL&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt; Windows, Linux&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Talend&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BI Tools:&lt;/strong&gt; Power BI, IBM Cognos Analytics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frameworks and Tools:&lt;/strong&gt; Apache Spark, Hadoop, Kafka, Airflow, Terraform&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design and Modeling:&lt;/strong&gt; UML, Merise, BPMN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;languages&#34;&gt;Languages
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Arabic:&lt;/strong&gt; Native&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;French:&lt;/strong&gt; Fluent&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;English:&lt;/strong&gt; Intermediate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;certificates&#34;&gt;Certificates
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Professional Data Engineer&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IBM Data Engineering&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IBM Big Data and Spark&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;strengths&#34;&gt;Strengths
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Autonomy&lt;/li&gt;
+&lt;li&gt;Stress Management&lt;/li&gt;
+&lt;li&gt;Teamwork&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://imadharir.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
