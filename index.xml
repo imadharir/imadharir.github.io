@@ -6,18 +6,10 @@
         <description>Recent content on Imad Harir</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://imadharir.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Archives</title>
-        <link>https://imadharir.github.io/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://imadharir.github.io/archives/</guid>
-        <description></description>
-        </item>
-        <item>
+        <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://imadharir.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Amazon Books Scraper</title>
         <link>https://imadharir.github.io/p/amazon-books-scraper/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://imadharir.github.io/p/amazon-books-scraper/</guid>
         <description>&lt;img src="https://imadharir.github.io/p/amazon-books-scraper/AmazonBookScraper.png" alt="Featured image of post Amazon Books Scraper" /&gt;&lt;h1 id=&#34;amazon-book-scraper-and-storage&#34;&gt;Amazon Book Scraper and Storage
@@ -357,7 +349,7 @@ The project follows a simple ETL (Extract, Transform, Load) architecture:
         <item>
         <title>Stock Market Real Time Data Analysis</title>
         <link>https://imadharir.github.io/p/stock-market-real-time-data-analysis/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://imadharir.github.io/p/stock-market-real-time-data-analysis/</guid>
         <description>&lt;img src="https://imadharir.github.io/p/stock-market-real-time-data-analysis/StockMarketDiagram.jpg" alt="Featured image of post Stock Market Real Time Data Analysis" /&gt;&lt;h1 id=&#34;google-cloud-pubsub-infrastructure-with-terraform&#34;&gt;Google Cloud Pub/Sub Infrastructure with Terraform
@@ -530,6 +522,14 @@ Ensure the zip file containing the Cloud Function code (main.py, requirements.tx
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://imadharir.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/archives/</guid>
+        <description></description>
         </item>
         <item>
         <title>Resume</title>
