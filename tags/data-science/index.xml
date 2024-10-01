@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Data Science on Imad Harir</title>
+        <link>https://imadharir.github.io/tags/data-science/</link>
+        <description>Recent content in Data Science on Imad Harir</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Sat, 28 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://imadharir.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Development of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence</title>
+        <link>https://imadharir.github.io/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/</link>
+        <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/</guid>
+        <description>&lt;img src="https://imadharir.github.io/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/app.png" alt="Featured image of post Development of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence" /&gt;&lt;h2 id=&#34;project-title&#34;&gt;Project Title:
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Development of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;project-description&#34;&gt;Project Description:
+&lt;/h2&gt;&lt;p&gt;This project aims to develop a multi-horizon forecasting tool that predicts the national electricity demand using artificial intelligence (AI) techniques. The forecasting tool is designed to enhance the management of electricity supply by providing more accurate and reliable demand predictions over different time horizons.&lt;/p&gt;
+&lt;h2 id=&#34;key-objectives&#34;&gt;Key Objectives:
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Accurate Demand Forecasting&lt;/strong&gt;: To build a model that predicts electricity demand over short, medium-term horizons.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Integration&lt;/strong&gt;: Leverage advanced machine learning techniques to handle complex and dynamic energy consumption patterns.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimization&lt;/strong&gt;: Ensure efficient use of national energy resources by minimizing forecasting errors, thereby supporting better decision-making in energy distribution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;methodology&#34;&gt;Methodology:
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Collection&lt;/strong&gt;: Historical electricity consumption data was collected from the national grid.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modeling Techniques&lt;/strong&gt;: The project employed various AI models including, but not limited to, neural networks and time series analysis (ARIMA, LSTM, GRU).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-Horizon Approach&lt;/strong&gt;: The model was designed to provide predictions at different intervals (e.g., hourly, daily, and weekly) to support both immediate and medium-term planning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tools-and-technologies-used&#34;&gt;Tools and Technologies Used:
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming Languages&lt;/strong&gt;: Python&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Libraries &amp;amp; Frameworks&lt;/strong&gt;: TensorFlow, Scikit-learn, Pandas, NumPy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Visualization&lt;/strong&gt;: Matplotlib, Seaborn for performance analysis and model insights&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results:
+&lt;/h2&gt;&lt;p&gt;The developed tool demonstrated improved accuracy in electricity demand predictions compared to traditional forecasting methods. The multi-horizon approach provided flexibility in adjusting to various operational needs, from short-term demand spikes to medmiu-term resource planning.&lt;/p&gt;
+&lt;h2 id=&#34;future-improvements&#34;&gt;Future Improvements:
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: Expanding the model to include renewable energy data and integrate weather-related factors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Data Integration&lt;/strong&gt;: Incorporate real-time data feeds to enhance the adaptability of the forecasts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Further AI Techniques&lt;/strong&gt;: Exploring other AI and deep learning models to further refine prediction accuracy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage:
+&lt;/h2&gt;&lt;p&gt;The tool is designed for use by energy planners and decision-makers at &lt;strong&gt;Office National d’Électricité et d’Eau Potable&lt;/strong&gt;. It can be integrated into existing systems for continuous monitoring and adjustment of energy supply to meet the national demand more efficiently.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

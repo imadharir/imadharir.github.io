@@ -344,6 +344,93 @@ The project follows a simple ETL (Extract, Transform, Load) architecture:
 &lt;li&gt;The project runs on a daily basis, ensuring the database is updated with new book entries.&lt;/li&gt;
 &lt;li&gt;Can be used for trend analysis, pricing insights, or recommendation systems.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;repo&#34;&gt;Repo
+&lt;/h2&gt;&lt;p&gt;👉 &lt;a class=&#34;link&#34; href=&#34;https://github.com/imadharir/AmazonBookScaperETL.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Pizza Sales Data Analytics</title>
+        <link>https://imadharir.github.io/p/pizza-sales-data-analytics/</link>
+        <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/p/pizza-sales-data-analytics/</guid>
+        <description>&lt;img src="https://imadharir.github.io/p/pizza-sales-data-analytics/power-bi.png" alt="Featured image of post Pizza Sales Data Analytics" /&gt;&lt;h1 id=&#34;pizza-sales-analysis&#34;&gt;Pizza Sales Analysis
+&lt;/h1&gt;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview
+&lt;/h2&gt;&lt;p&gt;This project analyzes pizza sales data using Power BI to generate insights on revenue, order trends, and pizza category performance. The data covers the period from January 2015 to December 2015, focusing on metrics like total revenue, number of pizzas sold, and average order values.&lt;/p&gt;
+&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement
+&lt;/h2&gt;&lt;h3 id=&#34;business-challenge&#34;&gt;Business Challenge:
+&lt;/h3&gt;&lt;p&gt;A pizza chain is experiencing inconsistent sales performance across its various locations and needs better insights into its sales patterns. The management team is struggling to understand which factors contribute to the variation in pizza sales, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which days and times generate the most sales?&lt;/li&gt;
+&lt;li&gt;Which pizza categories and sizes perform best?&lt;/li&gt;
+&lt;li&gt;Are there specific months where sales peak or decline?&lt;/li&gt;
+&lt;li&gt;What are the top and bottom-selling pizzas, and how can the product mix be optimized?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Currently, decisions are being made based on intuition rather than data, resulting in lost opportunities for revenue optimization and efficient resource allocation.&lt;/p&gt;
+&lt;h3 id=&#34;business-goals&#34;&gt;Business Goals:
+&lt;/h3&gt;&lt;p&gt;The company needs a data-driven approach to answer these questions and identify trends to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimize their inventory and staffing based on high and low demand periods.&lt;/li&gt;
+&lt;li&gt;Enhance their product offerings by focusing on high-selling pizzas.&lt;/li&gt;
+&lt;li&gt;Create targeted marketing strategies around peak sales periods and best-selling products.&lt;/li&gt;
+&lt;li&gt;Improve overall sales and profitability by focusing on underperforming areas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;solution&#34;&gt;Solution:
+&lt;/h3&gt;&lt;p&gt;This project addresses the problem by analyzing the pizza sales data over a year, providing detailed insights into sales trends, best-selling pizzas, and customer preferences. The Power BI visualizations offer actionable intelligence, helping the pizza chain improve its operations, product offerings, and marketing strategies to enhance profitability.&lt;/p&gt;
+&lt;h2 id=&#34;dataset&#34;&gt;Dataset
+&lt;/h2&gt;&lt;p&gt;The dataset includes pizza sales information from January 1st, 2015 to December 31st, 2015. The main features of the dataset include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Total Revenue&lt;/strong&gt;: $817.86K&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Pizza Sold&lt;/strong&gt;: 49,574 pizzas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Orders&lt;/strong&gt;: 21,350 orders&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Average Pizzas per Order&lt;/strong&gt;: 2.32&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Average Order Value&lt;/strong&gt;: $38.31&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-insights&#34;&gt;Key Insights
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Busiest Days&lt;/strong&gt;: Orders are highest on weekends, particularly on Friday and Saturday evenings.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best Months&lt;/strong&gt;: July and January have the most orders.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best-Selling Pizza&lt;/strong&gt;: Thai Chicken Pizza generates the highest revenue, while Classic Deluxe Pizza has the highest total quantity sold.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Worst-Selling Pizza&lt;/strong&gt;: Brie Carre Pizza ranks lowest in terms of revenue, total quantity sold, and total orders.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pizza-category-sales&#34;&gt;Pizza Category Sales
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Classic Category&lt;/strong&gt; contributes the most to total sales.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Large pizzas&lt;/strong&gt; generate the highest revenue across all size categories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sales-performance-by-pizza-size&#34;&gt;Sales Performance by Pizza Size
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Large&lt;/strong&gt; size pizzas are the best-sellers by both quantity and revenue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;visualizations&#34;&gt;Visualizations
+&lt;/h2&gt;&lt;p&gt;The analysis includes the following Power BI visuals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Daily Trend for Total Orders&lt;/strong&gt;: Shows the fluctuation in daily orders over the week.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monthly Trend for Total Orders&lt;/strong&gt;: Displays the variation in orders across months.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sales by Pizza Category&lt;/strong&gt;: Breakdown of sales percentage by pizza category.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sales by Pizza Size&lt;/strong&gt;: Breakdown of sales percentage by pizza size.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Top 5 and Bottom 5 Pizza Sellers&lt;/strong&gt;: A list of the best and worst performing pizzas in terms of revenue, quantity, and total orders.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;dash1.png&#34; alt=&#34;Dashboard Page 1&#34; width=&#34;400&#34;/&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;dash2.png&#34; alt=&#34;Dashboard Page 2&#34; width=&#34;400&#34;/&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;tools-used&#34;&gt;Tools Used
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Power BI&lt;/strong&gt;: Used for data visualization and generating insights.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSV Dataset&lt;/strong&gt;: Raw sales data was provided in a CSV format.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;future-improvements&#34;&gt;Future Improvements
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Include more advanced sales forecasting models.&lt;/li&gt;
+&lt;li&gt;Add customer demographic data for better segmentation and targeted marketing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;repo&#34;&gt;Repo
+&lt;/h2&gt;&lt;p&gt;👉 &lt;a class=&#34;link&#34; href=&#34;https://github.com/imadharir/Pizza-Sales-Data-Analysis.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github Repository&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -521,7 +608,10 @@ Ensure the zip file containing the Cloud Function code (main.py, requirements.tx
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;terraform destroy
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description>
+&lt;/div&gt;&lt;h2 id=&#34;repo&#34;&gt;Repo
+&lt;/h2&gt;&lt;p&gt;👉 &lt;a class=&#34;link&#34; href=&#34;https://github.com/imadharir/gcp-data-pipeline-stock-market.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+</description>
         </item>
         
     </channel>

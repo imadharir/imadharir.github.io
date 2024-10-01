@@ -7,6 +7,14 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://imadharir.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Data Analytics</title>
+        <link>https://imadharir.github.io/categories/data-analytics/</link>
+        <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/categories/data-analytics/</guid>
+        <description>&lt;img src="https://imadharir.github.io/categories/data-analytics/analysis.png" alt="Featured image of post Data Analytics" /&gt;</description>
+        </item>
+        <item>
         <title>Data Engineering</title>
         <link>https://imadharir.github.io/categories/data-engineering/</link>
         <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
@@ -21,6 +29,14 @@
         
         <guid>https://imadharir.github.io/categories/project/</guid>
         <description>&lt;img src="https://imadharir.github.io/categories/project/projects.png" alt="Featured image of post Project" /&gt;</description>
+        </item>
+        <item>
+        <title>Data Science</title>
+        <link>https://imadharir.github.io/categories/data-science/</link>
+        <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/categories/data-science/</guid>
+        <description>&lt;img src="https://imadharir.github.io/categories/data-science/data-science.png" alt="Featured image of post Data Science" /&gt;</description>
         </item>
         
     </channel>

@@ -344,6 +344,9 @@ The project follows a simple ETL (Extract, Transform, Load) architecture:
 &lt;li&gt;The project runs on a daily basis, ensuring the database is updated with new book entries.&lt;/li&gt;
 &lt;li&gt;Can be used for trend analysis, pricing insights, or recommendation systems.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;repo&#34;&gt;Repo
+&lt;/h2&gt;&lt;p&gt;👉 &lt;a class=&#34;link&#34; href=&#34;https://github.com/imadharir/AmazonBookScaperETL.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github Repository&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -521,7 +524,10 @@ Ensure the zip file containing the Cloud Function code (main.py, requirements.tx
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;terraform destroy
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description>
+&lt;/div&gt;&lt;h2 id=&#34;repo&#34;&gt;Repo
+&lt;/h2&gt;&lt;p&gt;👉 &lt;a class=&#34;link&#34; href=&#34;https://github.com/imadharir/gcp-data-pipeline-stock-market.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+</description>
         </item>
         
     </channel>

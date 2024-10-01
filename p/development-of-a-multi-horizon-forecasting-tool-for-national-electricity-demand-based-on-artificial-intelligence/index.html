@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><meta name='description' content="Project Title:\rDevelopment of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence\nProject Description:\rThis project aims to develop a multi-horizon forecasting tool that predicts the national electricity demand using artificial intelligence (AI) techniques. The forecasting tool is designed to enhance the management of electricity supply by providing more accurate and reliable demand predictions over different time horizons.\nKey Objectives:\rAccurate Demand Forecasting: To build a model that predicts electricity demand over short, medium-term horizons. AI Integration: Leverage advanced machine learning techniques to handle complex and dynamic energy consumption patterns. Optimization: Ensure efficient use of national energy resources by minimizing forecasting errors, thereby supporting better decision-making in energy distribution. Methodology:\rData Collection: Historical electricity consumption data was collected from the national grid. Modeling Techniques: The project employed various AI models including, but not limited to, neural networks and time series analysis (ARIMA, LSTM, GRU). Multi-Horizon Approach: The model was designed to provide predictions at different intervals (e.g., hourly, daily, and weekly) to support both immediate and medium-term planning. Tools and Technologies Used:\rProgramming Languages: Python Libraries &amp; Frameworks: TensorFlow, Scikit-learn, Pandas, NumPy Data Visualization: Matplotlib, Seaborn for performance analysis and model insights Results:\rThe developed tool demonstrated improved accuracy in electricity demand predictions compared to traditional forecasting methods. The multi-horizon approach provided flexibility in adjusting to various operational needs, from short-term demand spikes to medmiu-term resource planning.\n">
+<title>Development of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence</title>
+
+<link rel='canonical' href='https://imadharir.github.io/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/'>
+
+<link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="Development of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence">
+<meta property='og:description' content="Project Title:\rDevelopment of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence\nProject Description:\rThis project aims to develop a multi-horizon forecasting tool that predicts the national electricity demand using artificial intelligence (AI) techniques. The forecasting tool is designed to enhance the management of electricity supply by providing more accurate and reliable demand predictions over different time horizons.\nKey Objectives:\rAccurate Demand Forecasting: To build a model that predicts electricity demand over short, medium-term horizons. AI Integration: Leverage advanced machine learning techniques to handle complex and dynamic energy consumption patterns. Optimization: Ensure efficient use of national energy resources by minimizing forecasting errors, thereby supporting better decision-making in energy distribution. Methodology:\rData Collection: Historical electricity consumption data was collected from the national grid. Modeling Techniques: The project employed various AI models including, but not limited to, neural networks and time series analysis (ARIMA, LSTM, GRU). Multi-Horizon Approach: The model was designed to provide predictions at different intervals (e.g., hourly, daily, and weekly) to support both immediate and medium-term planning. Tools and Technologies Used:\rProgramming Languages: Python Libraries &amp; Frameworks: TensorFlow, Scikit-learn, Pandas, NumPy Data Visualization: Matplotlib, Seaborn for performance analysis and model insights Results:\rThe developed tool demonstrated improved accuracy in electricity demand predictions compared to traditional forecasting methods. The multi-horizon approach provided flexibility in adjusting to various operational needs, from short-term demand spikes to medmiu-term resource planning.\n">
+<meta property='og:url' content='https://imadharir.github.io/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/'>
+<meta property='og:site_name' content='Imad Harir'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Data Science' /><meta property='article:tag' content='Python' /><meta property='article:tag' content='Data Analysis' /><meta property='article:tag' content='Time Series' /><meta property='article:published_time' content='2024-09-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-09-28T00:00:00&#43;00:00'/><meta property='og:image' content='https://imadharir.github.io/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/app.png' />
+<meta name="twitter:title" content="Development of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence">
+<meta name="twitter:description" content="Project Title:\rDevelopment of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence\nProject Description:\rThis project aims to develop a multi-horizon forecasting tool that predicts the national electricity demand using artificial intelligence (AI) techniques. The forecasting tool is designed to enhance the management of electricity supply by providing more accurate and reliable demand predictions over different time horizons.\nKey Objectives:\rAccurate Demand Forecasting: To build a model that predicts electricity demand over short, medium-term horizons. AI Integration: Leverage advanced machine learning techniques to handle complex and dynamic energy consumption patterns. Optimization: Ensure efficient use of national energy resources by minimizing forecasting errors, thereby supporting better decision-making in energy distribution. Methodology:\rData Collection: Historical electricity consumption data was collected from the national grid. Modeling Techniques: The project employed various AI models including, but not limited to, neural networks and time series analysis (ARIMA, LSTM, GRU). Multi-Horizon Approach: The model was designed to provide predictions at different intervals (e.g., hourly, daily, and weekly) to support both immediate and medium-term planning. Tools and Technologies Used:\rProgramming Languages: Python Libraries &amp; Frameworks: TensorFlow, Scikit-learn, Pandas, NumPy Data Visualization: Matplotlib, Seaborn for performance analysis and model insights Results:\rThe developed tool demonstrated improved accuracy in electricity demand predictions compared to traditional forecasting methods. The multi-horizon approach provided flexibility in adjusting to various operational needs, from short-term demand spikes to medmiu-term resource planning.\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://imadharir.github.io/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/app.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/photo_hu5616313901591384952.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🇵🇸</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Imad Harir</a></h1>
+            <h2 class="site-description">Data Engineer. Data Scientist. Big Data. AI Enthusiast</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/imadharir'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 64 64">
+  <path d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z"></path>
+  </svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/%C3%AEmad-harir-11b658199/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+    <path fill="#0078d4"
+        d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z"></path>
+    <path
+        d="M30,37V26.901c0-1.689-0.819-2.698-2.192-2.698c-0.815,0-1.414,0.459-1.779,1.364	c-0.017,0.064-0.041,0.325-0.031,1.114L26,37h-7V18h7v1.061C27.022,18.356,28.275,18,29.738,18c4.547,0,7.261,3.093,7.261,8.274	L37,37H30z M11,37V18h3.457C12.454,18,11,16.528,11,14.499C11,12.472,12.478,11,14.514,11c2.012,0,3.445,1.431,3.486,3.479	C18,16.523,16.521,18,14.485,18H18v19H11z"
+        opacity=".05"></path>
+    <path
+        d="M30.5,36.5v-9.599c0-1.973-1.031-3.198-2.692-3.198c-1.295,0-1.935,0.912-2.243,1.677	c-0.082,0.199-0.071,0.989-0.067,1.326L25.5,36.5h-6v-18h6v1.638c0.795-0.823,2.075-1.638,4.238-1.638	c4.233,0,6.761,2.906,6.761,7.774L36.5,36.5H30.5z M11.5,36.5v-18h6v18H11.5z M14.457,17.5c-1.713,0-2.957-1.262-2.957-3.001	c0-1.738,1.268-2.999,3.014-2.999c1.724,0,2.951,1.229,2.986,2.989c0,1.749-1.268,3.011-3.015,3.011H14.457z"
+        opacity=".07"></path>
+    <path fill="#fff"
+        d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z"></path>
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='mailto:harir.imad.2001@gmail.com'
+                        target="_blank"
+                        title="Mail"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg data-name="1-Email" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <path
+        d="M29 4H3a3 3 0 0 0-3 3v18a3 3 0 0 0 3 3h26a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-.72 2L16 14.77 3.72 6zM30 25a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.23l13.42 9.58a1 1 0 0 0 1.16 0L30 7.23z" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/resume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>Resume</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        
+
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#project-title">Project Title:</a></li>
+    <li><a href="#project-description">Project Description:</a></li>
+    <li><a href="#key-objectives">Key Objectives:</a></li>
+    <li><a href="#methodology">Methodology:</a></li>
+    <li><a href="#tools-and-technologies-used">Tools and Technologies Used:</a></li>
+    <li><a href="#results">Results:</a></li>
+    <li><a href="#future-improvements">Future Improvements:</a></li>
+    <li><a href="#usage">Usage:</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/">
+                <img src="/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/app_hu14808295594324653177.png"
+                        srcset="/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/app_hu14808295594324653177.png 800w, /p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/app_hu8041146943857598796.png 1600w"
+                        width="800" 
+                        height="420" 
+                        loading="lazy"
+                        alt="Featured image of post Development of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/project/" style="background-color: #2a9d8f; color: #fff;">
+                Project
+            </a>
+        
+            <a href="/categories/data-science/" style="background-color: #2a9d8f; color: #fff;">
+                Data Science
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/development-of-a-multi-horizon-forecasting-tool-for-national-electricity-demand-based-on-artificial-intelligence/">Development of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 28, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    2 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="project-title">Project Title:
+</h2><p><strong>Development of a Multi-Horizon Forecasting Tool for National Electricity Demand Based on Artificial Intelligence</strong></p>
+<h2 id="project-description">Project Description:
+</h2><p>This project aims to develop a multi-horizon forecasting tool that predicts the national electricity demand using artificial intelligence (AI) techniques. The forecasting tool is designed to enhance the management of electricity supply by providing more accurate and reliable demand predictions over different time horizons.</p>
+<h2 id="key-objectives">Key Objectives:
+</h2><ul>
+<li><strong>Accurate Demand Forecasting</strong>: To build a model that predicts electricity demand over short, medium-term horizons.</li>
+<li><strong>AI Integration</strong>: Leverage advanced machine learning techniques to handle complex and dynamic energy consumption patterns.</li>
+<li><strong>Optimization</strong>: Ensure efficient use of national energy resources by minimizing forecasting errors, thereby supporting better decision-making in energy distribution.</li>
+</ul>
+<h2 id="methodology">Methodology:
+</h2><ul>
+<li><strong>Data Collection</strong>: Historical electricity consumption data was collected from the national grid.</li>
+<li><strong>Modeling Techniques</strong>: The project employed various AI models including, but not limited to, neural networks and time series analysis (ARIMA, LSTM, GRU).</li>
+<li><strong>Multi-Horizon Approach</strong>: The model was designed to provide predictions at different intervals (e.g., hourly, daily, and weekly) to support both immediate and medium-term planning.</li>
+</ul>
+<h2 id="tools-and-technologies-used">Tools and Technologies Used:
+</h2><ul>
+<li><strong>Programming Languages</strong>: Python</li>
+<li><strong>Libraries &amp; Frameworks</strong>: TensorFlow, Scikit-learn, Pandas, NumPy</li>
+<li><strong>Data Visualization</strong>: Matplotlib, Seaborn for performance analysis and model insights</li>
+</ul>
+<h2 id="results">Results:
+</h2><p>The developed tool demonstrated improved accuracy in electricity demand predictions compared to traditional forecasting methods. The multi-horizon approach provided flexibility in adjusting to various operational needs, from short-term demand spikes to medmiu-term resource planning.</p>
+<h2 id="future-improvements">Future Improvements:
+</h2><ul>
+<li><strong>Scalability</strong>: Expanding the model to include renewable energy data and integrate weather-related factors.</li>
+<li><strong>Real-time Data Integration</strong>: Incorporate real-time data feeds to enhance the adaptability of the forecasts.</li>
+<li><strong>Further AI Techniques</strong>: Exploring other AI and deep learning models to further refine prediction accuracy.</li>
+</ul>
+<h2 id="usage">Usage:
+</h2><p>The tool is designed for use by energy planners and decision-makers at <strong>Office National d’Électricité et d’Eau Potable</strong>. It can be integrated into existing systems for continuous monitoring and adjustment of energy supply to meet the national demand more efficiently.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/data-science/">Data Science</a>
+        
+            <a href="/tags/python/">Python</a>
+        
+            <a href="/tags/data-analysis/">Data Analysis</a>
+        
+            <a href="/tags/time-series/">Time Series</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/amazon-books-scraper/">
+        
+        
+            <div class="article-image">
+                <img src="/p/amazon-books-scraper/AmazonBookScraper.f55657744e464ad8e5b1d780679654e7_hu9339739756689356474.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Amazon Books Scraper"
+                        
+                        data-hash="md5-9VZXdE5GStjlsdeAZ5ZU5w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Amazon Books Scraper</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/stock-market-real-time-data-analysis/">
+        
+        
+            <div class="article-image">
+                <img src="/p/stock-market-real-time-data-analysis/StockMarketDiagram.86442014c3ddc1731a57f88dc9246a54_hu16164601702883700264.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Stock Market Real Time Data Analysis"
+                        
+                        data-hash="md5-hkQgFMPdwXMaV/iNySRqVA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Stock Market Real Time Data Analysis</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/pizza-sales-data-analytics/">
+        
+        
+            <div class="article-image">
+                <img src="/p/pizza-sales-data-analytics/power-bi.7874da7ebd4a5f27e8f253de25c8d131_hu6996335002330700163.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Pizza Sales Data Analytics"
+                        
+                        data-hash="md5-eHTafr1KXyfo8lPeJcjRMQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Pizza Sales Data Analytics</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+         
+        
+        2024 
+    </section>
+    
+    <section class="powerby">
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
