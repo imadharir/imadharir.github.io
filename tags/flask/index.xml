@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Flask on Imad Harir</title>
+        <link>https://imadharir.github.io/tags/flask/</link>
+        <description>Recent content in Flask on Imad Harir</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Mon, 25 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://imadharir.github.io/tags/flask/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Product Management Application</title>
+        <link>https://imadharir.github.io/p/product-management-application/</link>
+        <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/p/product-management-application/</guid>
+        <description>&lt;img src="https://imadharir.github.io/p/product-management-application/list_products.png" alt="Featured image of post Product Management Application" /&gt;&lt;h1 id=&#34;product-management-application&#34;&gt;Product Management Application
+&lt;/h1&gt;&lt;h2 id=&#34;1-overview&#34;&gt;1. Overview
+&lt;/h2&gt;&lt;p&gt;This project is a web application built using Flask that allows users to manage products. It includes functionalities to add, update, delete, and view products and their associated categories. The application stores data in a Cassandra database and supports image uploads for product representation.&lt;/p&gt;
+&lt;h2 id=&#34;2-features&#34;&gt;2. Features
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Product Management&lt;/strong&gt;: Add, update, and delete products.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category Management&lt;/strong&gt;: Automatically add categories if they do not exist.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Image Upload&lt;/strong&gt;: Upload and store product images.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt;: Uses Flask-Bootstrap for a responsive layout.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RESTful API&lt;/strong&gt;: Endpoint to retrieve categories in JSON format.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-technologies-used&#34;&gt;3. Technologies Used
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Flask&lt;/strong&gt;: Web framework for building the application.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flask-Bootstrap&lt;/strong&gt;: For styling the application using Bootstrap.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cassandra&lt;/strong&gt;: NoSQL database for storing product and category data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pillow&lt;/strong&gt;: Python Imaging Library for image handling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-installation-instructions&#34;&gt;4. Installation Instructions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Clone the Repository:&lt;/strong&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/imadharir/Product-Management-Application.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; Product-Management-Application
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set Up a Virtual Environment:&lt;/strong&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python3 -m venv venv
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; venv/bin/activate  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Install Dependencies:&lt;/strong&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install Flask flask_bootstrap cassandra-driver Pillow
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set Up Cassandra:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure Cassandra is installed and running.&lt;/li&gt;
+&lt;li&gt;Create the keyspace and tables in the Cassandra CQL shell:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CREATE KEYSPACE mykeyspace WITH &lt;span class=&#34;nv&#34;&gt;replication&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;class&amp;#39;&lt;/span&gt;: &lt;span class=&#34;s1&#34;&gt;&amp;#39;SimpleStrategy&amp;#39;&lt;/span&gt;, &lt;span class=&#34;s1&#34;&gt;&amp;#39;replication_factor&amp;#39;&lt;/span&gt;: &lt;span class=&#34;s1&#34;&gt;&amp;#39;1&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; USE mykeyspace&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; CREATE TABLE products &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     product_id int PRIMARY KEY,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     name text,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     price float,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     category text,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     image_url text
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; CREATE TABLE categories &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     category text PRIMARY KEY
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;5-running-the-application&#34;&gt;5. Running the Application
+&lt;/h2&gt;&lt;p&gt;To run the application, execute the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python app.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Visit &lt;code&gt;http://127.0.0.1:5000/&lt;/code&gt; in your web browser to access the application.&lt;/p&gt;
+&lt;h2 id=&#34;6-usage&#34;&gt;6. Usage:
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Home Page:&lt;/strong&gt; View all products and their details.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add Product:&lt;/strong&gt; Fill out the form to add a new product with an image.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update Product:&lt;/strong&gt; Update the price of an existing product.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delete Product:&lt;/strong&gt; Remove a product from the list.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;View Categories:&lt;/strong&gt; Access the categories through the &lt;code&gt;/categories&lt;/code&gt; API endpoint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;7-api-endpoints&#34;&gt;7. API Endpoints
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;GET /categories&lt;/strong&gt;: Retrieve a list of all categories in JSON format.&lt;/p&gt;
+&lt;h2 id=&#34;8-screenshots&#34;&gt;8. Screenshots
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://imadharir.github.io/p/product-management-application/list_products.png&#34;
+	width=&#34;1292&#34;
+	height=&#34;592&#34;
+	srcset=&#34;https://imadharir.github.io/p/product-management-application/list_products_hu17421241949092634519.png 480w, https://imadharir.github.io/p/product-management-application/list_products_hu5745717231803895927.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;218&#34;
+		data-flex-basis=&#34;523px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+    &lt;hr style=&#34;width: 50%;&#34;/&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://imadharir.github.io/p/product-management-application/add_product.png&#34;
+	width=&#34;1292&#34;
+	height=&#34;526&#34;
+	srcset=&#34;https://imadharir.github.io/p/product-management-application/add_product_hu11835175880416828179.png 480w, https://imadharir.github.io/p/product-management-application/add_product_hu16533019504229596874.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;245&#34;
+		data-flex-basis=&#34;589px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+    &lt;hr style=&#34;width: 50%;&#34;/&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://imadharir.github.io/p/product-management-application/product_details.png&#34;
+	width=&#34;1287&#34;
+	height=&#34;598&#34;
+	srcset=&#34;https://imadharir.github.io/p/product-management-application/product_details_hu14635157025304476134.png 480w, https://imadharir.github.io/p/product-management-application/product_details_hu17068863261404060800.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;215&#34;
+		data-flex-basis=&#34;516px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;9-future-improvements&#34;&gt;9. Future Improvements
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Implement user authentication and authorization.&lt;/li&gt;
+&lt;li&gt;Add search functionality for products.&lt;/li&gt;
+&lt;li&gt;Enhance error handling and validation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;repo&#34;&gt;Repo
+&lt;/h2&gt;&lt;p&gt;👉 &lt;a class=&#34;link&#34; href=&#34;https://github.com/imadharir/Product-Management-Application.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

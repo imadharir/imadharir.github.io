@@ -121,7 +121,7 @@
         <item>
         <title>Data Analysis</title>
         <link>https://imadharir.github.io/tags/data-analysis/</link>
-        <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
         
         <guid>https://imadharir.github.io/tags/data-analysis/</guid>
         <description></description>
@@ -129,7 +129,7 @@
         <item>
         <title>Data Science</title>
         <link>https://imadharir.github.io/tags/data-science/</link>
-        <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
         
         <guid>https://imadharir.github.io/tags/data-science/</guid>
         <description></description>
@@ -137,9 +137,33 @@
         <item>
         <title>Time Series</title>
         <link>https://imadharir.github.io/tags/time-series/</link>
-        <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
         
         <guid>https://imadharir.github.io/tags/time-series/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Apache Cassandra</title>
+        <link>https://imadharir.github.io/tags/apache-cassandra/</link>
+        <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/tags/apache-cassandra/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Docker</title>
+        <link>https://imadharir.github.io/tags/docker/</link>
+        <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/tags/docker/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Flask</title>
+        <link>https://imadharir.github.io/tags/flask/</link>
+        <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/tags/flask/</guid>
         <description></description>
         </item>
         

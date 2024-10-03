@@ -33,10 +33,18 @@
         <item>
         <title>Data Science</title>
         <link>https://imadharir.github.io/categories/data-science/</link>
-        <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
         
         <guid>https://imadharir.github.io/categories/data-science/</guid>
         <description>&lt;img src="https://imadharir.github.io/categories/data-science/data-science.png" alt="Featured image of post Data Science" /&gt;</description>
+        </item>
+        <item>
+        <title>Web Development</title>
+        <link>https://imadharir.github.io/categories/web-development/</link>
+        <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://imadharir.github.io/categories/web-development/</guid>
+        <description>&lt;img src="https://imadharir.github.io/web-dev.png" alt="Featured image of post Web Development" /&gt;</description>
         </item>
         
     </channel>
